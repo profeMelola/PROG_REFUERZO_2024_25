@@ -1,5 +1,7 @@
 # EJERCICIO 1: REPASO PRIMERA EVALUACIÓN
 
+![image](https://github.com/user-attachments/assets/e1b56f8f-4b07-4b00-8095-9eaa9d5a8aef)
+
 ## Objetivos
 
 Práctica guiada para repasar conceptos trabajados en la primera evaluación.
