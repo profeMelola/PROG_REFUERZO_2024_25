@@ -35,7 +35,7 @@ Práctica guiada para repasar conceptos trabajados en la primera evaluación.
 
 ```
 
-Mediante llamada a métodos estáticos (funciones) públicos, que se encuentran en una clase de utilidades, vamos obtener:
+Mediante llamada a métodos estáticos públicos (funciones: método que devuelve un valor y realiza una tarea específica), que se encuentran en una clase de utilidades, vamos obtener:
 
 - Edad media de los personajes de los Simpson.
 - Nombre del personaje que tiene más puntos.
