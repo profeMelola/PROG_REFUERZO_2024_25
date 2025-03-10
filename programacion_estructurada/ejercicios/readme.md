@@ -1,4 +1,4 @@
-# Ejercicio 1: menú módulos/notas
+# Ejercicio menú: menú módulos/notas
 Crea una aplicación que tendrá un menú con las siguientes opciones:
   1. Calcular nota media
   2. Ver el último resultado
