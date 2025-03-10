@@ -43,7 +43,7 @@ Para crear una herramienta es necesario especificar estas dos características.
 
 ---
 
-### 🌲 **Clase `Hacha`**
+### 🪓 **Clase `Hacha`**
 - Además de las características básicas, un hacha se define por su **eficiencia** (`float`).
 - No requiere métodos adicionales, pero debe permitir su creación y modificación de eficiencia.
 
