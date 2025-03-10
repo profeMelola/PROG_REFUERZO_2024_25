@@ -4,7 +4,7 @@ Crea una aplicación que tendrá un menú con las siguientes opciones:
   2. Ver el último resultado
   3. Salir
 
-## OPCIÓN1.
+## OPCIÓN1: calcular nota media
 Se piden por consola los siguientes datos:
 ¿Cuántos módulos tienes?
 
@@ -24,9 +24,9 @@ Al finalizar se mostrará:
    - Mayor que 6 y menor que 8: Notable
    - Mayor que 8 hasta 10: Sobresaliente
 
-## OPCIÓN2.
+## OPCIÓN2: ver último resultado
 Mostrará la última nota media calculada.
 
-## OPCIÓN3:
+## OPCIÓN3: chimpún
 
 Finaliza el programa y se muestra FIN DE PROGRAMA
