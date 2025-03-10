@@ -54,6 +54,7 @@ Para crear una herramienta es necesario especificar estas dos características.
 - Usa modificadores de acceso adecuados (`private`, `protected`, `public`).
 - La estructura de clases debe permitir la extensión para agregar nuevos tipos de herramientas en el futuro.
 
+## 🛠️ Modelado UML
 
 ![image](https://github.com/user-attachments/assets/384f5f40-2463-4df4-b752-a8cc7d915a55)
 
