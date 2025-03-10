@@ -4,6 +4,9 @@ Crea una aplicación que tendrá un menú con las siguientes opciones:
   2. Ver el último resultado
   3. Salir
 
+     
+![image](https://github.com/user-attachments/assets/a08fbbae-2d30-41e2-9b3d-39e4c5ac56c0)
+
 ## OPCIÓN1: calcular nota media
 Se piden por consola los siguientes datos:
 ¿Cuántos módulos tienes?
