@@ -30,7 +30,7 @@ Para crear una herramienta es necesario especificar estas dos características.
 
 ## 🔹 Tipos de Herramientas
 
-### 🏗️ **Clase `Pico`**
+### ⛏️ **Clase `Pico`**
 - Además de las características básicas, un pico se define por su **material** (`String`).
 - Todo pico **mina**, pero dependiendo del tipo de pico la forma de minar es diferente.
 - Implementa el método `minar()`, que solo muestra un mensaje por consola.
