@@ -7,7 +7,7 @@ Crea una aplicación que tendrá un menú con las siguientes opciones:
      
 ![image](https://github.com/user-attachments/assets/a08fbbae-2d30-41e2-9b3d-39e4c5ac56c0)
 
-## OPCIÓN1: calcular nota media
+## OPCIÓN 1: calcular nota media
 Se piden por consola los siguientes datos:
 ¿Cuántos módulos tienes?
 
@@ -27,9 +27,9 @@ Al finalizar se mostrará:
    - Mayor que 6 y menor que 8: Notable
    - Mayor que 8 hasta 10: Sobresaliente
 
-## OPCIÓN2: ver último resultado
+## OPCIÓN 2: ver último resultado
 Mostrará la última nota media calculada.
 
-## OPCIÓN3: chimpún
+## OPCIÓN 3: chimpún
 
 Finaliza el programa y se muestra FIN DE PROGRAMA
