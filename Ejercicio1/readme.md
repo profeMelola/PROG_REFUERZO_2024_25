@@ -43,13 +43,13 @@ Mediante llamada a métodos estáticos públicos (funciones: método que devuelv
 
 ```
         System.out.println("1.EDAD MEDIA DE LOS PERSONAJES DE LOS SIMPSON");
-        double edadMedia = calcularEdadMedia(edades);
+        double edadMedia = Utilidades.calcularEdadMedia(edades);
         System.out.println(edadMedia);
 
         System.out.println("2.NOMBRE DEL PERSONAJE DE LOS SIMPSON QUE TIENE MÁS PUNTOS:");
-        String nombre = obtenerPersonajeMasPuntos(nombres,puntos);
+        String nombre = Utilidades.obtenerPersonajeMasPuntos(nombres,puntos);
         System.out.println(nombre);
 
         System.out.println("3.DNIS REPETIDOS");
-        mostrarDnisRepetidos(dnis);
+        Utilidades.mostrarDnisRepetidos(dnis);
 ```
