@@ -40,7 +40,7 @@ ____
 
 ![image](https://github.com/user-attachments/assets/76146270-2b9d-47e5-9557-2bf8fd997ce2)
 
-## PROGRAMA QUE CALCULA EL IMPORTE TOTAL DE TODAS LAS FACTURAS Y SUS GASTOS ASOCIADOS**
+## PROGRAMA QUE CALCULA EL IMPORTE TOTAL DE TODAS LAS FACTURAS Y SUS GASTOS ASOCIADOS
  
 ### REQUISITOS:
   - Debe pedir el número de facturas del cliente.
