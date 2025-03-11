@@ -1,6 +1,6 @@
 # Ejercicios para practicar con bucles en ejercicios sencillos
 
-![image](https://github.com/profeMelola/Programacion-03-2023-24/assets/91023374/bff7fafe-25a3-409b-a1ca-9428acdd8a34)
+![image](https://github.com/user-attachments/assets/92baea0a-5645-4cff-8f85-105edec108b4)
 
 
 ## Ejercicio 1: Eco
