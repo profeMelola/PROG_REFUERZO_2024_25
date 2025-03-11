@@ -1,6 +1,6 @@
 # Ejercicios para practicar con bucles en ejercicios sencillos
 
-![image](https://github.com/profeMelola/Programacion-03-2023-24/assets/91023374/bff7fafe-25a3-409b-a1ca-9428acdd8a34)
+![image](https://github.com/user-attachments/assets/92baea0a-5645-4cff-8f85-105edec108b4)
 
 
 ## Ejercicio 1: Eco
@@ -70,7 +70,8 @@ Se introducirán datos hasta que uno de ellos sea negativo, y se mostrará:
 
 Programa que suma independientemente los pares y los impares de los números comprendidos entre 100 y 200.
 
-![image](https://user-images.githubusercontent.com/91023374/191769346-f976c7e2-a46c-47a7-ad76-c442c883344f.png)
+![image](https://github.com/user-attachments/assets/aae96a36-a5bd-4466-ac3e-8729ea36ae6b)
+
 
 
 ## Ejercicio 8: tabla de multiplicar
@@ -131,6 +132,7 @@ La salida del programa debe ser:
 
 Imprimir un patrón de asteriscos en forma de un triángulo rectángulo
 
-![image](https://github.com/profeMelola/Programacion-03-2023-24/assets/91023374/fb997025-eb9b-4600-8f1e-d1753867c723)
+![image](https://github.com/user-attachments/assets/34d8581e-1944-4f71-bc22-4dbfa722e338)
+
 
 
