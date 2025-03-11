@@ -70,7 +70,8 @@ Se introducirán datos hasta que uno de ellos sea negativo, y se mostrará:
 
 Programa que suma independientemente los pares y los impares de los números comprendidos entre 100 y 200.
 
-![image](https://user-images.githubusercontent.com/91023374/191769346-f976c7e2-a46c-47a7-ad76-c442c883344f.png)
+![image](https://github.com/user-attachments/assets/aae96a36-a5bd-4466-ac3e-8729ea36ae6b)
+
 
 
 ## Ejercicio 8: tabla de multiplicar
