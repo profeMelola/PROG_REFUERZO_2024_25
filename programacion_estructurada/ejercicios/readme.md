@@ -1,4 +1,4 @@
-# EJERCICIO MENÚ: módulos/notas
+# EJERCICIO 1 MENÚ: módulos/notas
 Crea una aplicación que tendrá un menú con las siguientes opciones:
   1. Calcular nota media
   2. Ver el último resultado
@@ -34,7 +34,9 @@ Mostrará la última nota media calculada.
 
 Finaliza el programa y se muestra FIN DE PROGRAMA
 
-# EJERCICIO Facturas: Programa para la gestión de facturas y gastos de una empresa
+____
+
+# EJERCICIO 2 Facturas: Programa para la gestión de facturas y gastos de una empresa
 
 ![image](https://github.com/user-attachments/assets/76146270-2b9d-47e5-9557-2bf8fd997ce2)
 
