@@ -1,4 +1,4 @@
-# Ejercicio menú: módulos/notas
+# EJERCICIO MENÚ: módulos/notas
 Crea una aplicación que tendrá un menú con las siguientes opciones:
   1. Calcular nota media
   2. Ver el último resultado
@@ -33,3 +33,25 @@ Mostrará la última nota media calculada.
 ## OPCIÓN 3: chimpún
 
 Finaliza el programa y se muestra FIN DE PROGRAMA
+
+# EJERCICIO Facturas: Programa para la gestión de facturas y gastos de una empresa
+
+![image](https://github.com/user-attachments/assets/76146270-2b9d-47e5-9557-2bf8fd997ce2)
+
+## PROGRAMA QUE CALCULA EL IMPORTE TOTAL DE TODAS LAS FACTURAS Y SUS GASTOS ASOCIADOS**
+ 
+### REQUISITOS:
+  - Debe pedir el número de facturas del cliente.
+  - Por cada factura debe pedir el número de gastos que tiene la factura.
+  - Por cada gasto debe pedir el importe del mismo.
+  - Debe mostrar el importe total de gastos de cada factura.
+  - Finalmente debe mostrar el importe total de todas las facturas del usuario
+ 
+ 
+
+### Ejemplo salida por consola:
+
+![image](https://github.com/user-attachments/assets/ac132d35-a93e-4da2-afa4-3c10f3ffbb5e)
+
+
+
