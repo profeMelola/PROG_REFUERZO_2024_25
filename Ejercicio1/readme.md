@@ -119,38 +119,43 @@ En la clase `Main`, se deben:
 
 ## **Ejemplo de Salida Esperada**
 ```
-Bienvenido a Springfield.
+Homer ha sido añadido a Springfield.
+Bart ha sido añadido a Springfield.
+Marge ha sido añadido a Springfield.
+Lisa ha sido añadido a Springfield.
+Maggie ha sido añadido a Springfield.
+Ned ha sido añadido a Springfield.
+Moe ha sido añadido a Springfield.
 
-1. Añadiendo personajes...
-    - Homer Simpson añadido.
-    - Bart Simpson añadido.
-    - Marge Simpson añadido.
-    - Lisa Simpson añadido.
+Lista de habitantes de Springfield:
+- Homer (Edad: 38, Puntos: 50)
+- Bart (Edad: 10, Puntos: 40)
+- Marge (Edad: 34, Puntos: 60)
+- Lisa (Edad: 8, Puntos: 55)
+- Maggie (Edad: 1, Puntos: 20)
+- Ned (Edad: 40, Puntos: 70)
+- Moe (Edad: 50, Puntos: 30)
 
-2. Mostrando habitantes:
-    - Homer (Edad: 38, Puntos: 50)
-    - Bart (Edad: 10, Puntos: 40)
-    - Marge (Edad: 34, Puntos: 60)
-    - Lisa (Edad: 8, Puntos: 55)
+Edad media de los personajes 25,86 
+Personaje con más puntos: Ned con 70 puntos.
 
-3. EDAD MEDIA DE LOS PERSONAJES:
-22.5 años.
+DNIs repetidos:
+- 11111111C
+- 11111111A
 
-4. PERSONAJE CON MÁS PUNTOS:
-Marge con 60 puntos.
+¡Competencia entre Bart y Lisa!
+Bart ha ganado 10 puntos.
+Lisa ha perdido 5 puntos.
 
-5. DNIs repetidos:
-11111111A
+Lista de habitantes de Springfield:
+- Homer (Edad: 38, Puntos: 50)
+- Bart (Edad: 10, Puntos: 50)
+- Marge (Edad: 34, Puntos: 60)
+- Lisa (Edad: 8, Puntos: 50)
+- Maggie (Edad: 1, Puntos: 20)
+- Ned (Edad: 40, Puntos: 70)
+- Moe (Edad: 50, Puntos: 30)
 
-6. Competencia entre Bart y Lisa...
-    - Bart gana 10 puntos.
-    - Lisa pierde 5 puntos.
-
-7. Estado actual de los puntos:
-    - Homer: 50
-    - Bart: 50
-    - Marge: 60
-    - Lisa: 50
-
-8. Homer dice: ¡Hola, soy Homer Simpson y vivo en Springfield!
+Un personaje cualquiera saludando:
+¡Hola, soy Homer y vivo en Springfield!
 ```
