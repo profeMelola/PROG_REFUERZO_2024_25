@@ -1,5 +1,8 @@
 # 📌 Enunciado - Programación Orientada a Objetos (POO) en Java
 
+![image](https://github.com/user-attachments/assets/b7bde352-fc7c-4f72-9a27-f990a376aea6)
+
+
 ## 🛠️ Modelado de Herramientas en Minecraft
 
 Siguiendo los pilares y principios de la **Programación Orientada a Objetos (POO)**, implementa el modelo de clases en base a las siguientes especificaciones:
