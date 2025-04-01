@@ -58,7 +58,7 @@ public class App {
 
 
         // ------------------- TRASTEANDO CON ARRAYLIST DE OBJETOS ----------------
-        System.out.println("/n**********************************************");
+        System.out.println("\n**********************************************");
         ArrayList<Simpson> lista = new ArrayList<>();
         lista.add(hommer);
         lista.add(bart);
@@ -67,11 +67,11 @@ public class App {
         //ArrayList<String> cadenas = new ArrayList<>(List.of("uno","dos","tres"));
 
         
-        System.out.println("*********** LISTA SIN ORDENAR **********");
+        System.out.println("\n*********** LISTA SIN ORDENAR **********");
         System.out.println(lista);
         //System.out.println(cadenas);
 
-        System.out.println("*********** LISTA ORDENADA POR CRITERIO NATURAL (nombre asc) *****");
+        System.out.println("\n*********** LISTA ORDENADA POR CRITERIO NATURAL (nombre asc): uso de Comparable *****");
         //Collections.sort(cadenas);
         Collections.sort(lista);
         System.out.println(lista);
@@ -82,52 +82,69 @@ public class App {
 
         lista2 = lista; // dos variables apuntando a la misma lista
 
-        System.out.println("********** LISTA 2 *********");
+        System.out.println("\n********** LISTA 2 *********");
         System.out.println(lista2);
 
-        // COPIA DE LISTA 1 EN LISTA 3
+        // ------------------------------------------------
+        // COPIA DE LISTA 1 EN LISTA 3: COPIA SUPERFICIAL
         ArrayList<Simpson> lista3 = new ArrayList<>(lista);
 
-        System.out.println("********** LISTA 3 *********");
+        System.out.println("\n********** LISTA 3 *********");
         System.out.println(lista3);
 
+        // ------------------------------------------------
+        // COPIA DE LISTA 1 EN LISTA PROFUNDA: COPIA PROFUNDA
+        ArrayList<Simpson> listaProfunda = new ArrayList<>();
 
+        for (Simpson s : lista) {
+            Simpson copia = new Simpson(s.getNombre(), s.getDni(), s.getEdad());
+            copia.setPuntos(s.getPuntos());
+            listaProfunda.add(copia);
+        }
+        System.out.println("\n********** LISTA PROFUNDA *********");
+        System.out.println(listaProfunda);
+        // --------------------------------------------------------------
 
         // Modifico el primer Simpson (Bart)
         lista.get(0).setNombre("NuevoNombre");
 
-        System.out.println("********** LISTA 1 TRAS MODIFICAR NOMBRE BART *******");
+        System.out.println("\n********** LISTA 1 TRAS MODIFICAR NOMBRE BART *******");
         System.out.println(lista);
-        System.out.println("********** LISTA 2 TRAS MODIFICAR NOMBRE BART en lista 1*******");
+        System.out.println("\n********** LISTA 2 TRAS MODIFICAR NOMBRE BART en lista 1*******");
         System.out.println(lista2);
-        System.out.println("********** LISTA 3 TRAS MODIFICAR NOMBRE BART en lista 1*******");
+        System.out.println("\n********** LISTA 3 TRAS MODIFICAR NOMBRE BART en lista 1*******");
         System.out.println(lista3);
 
-        System.out.println("******** BORRO PRIMER ELEMENTO DE LISTA 1********");
+        System.out.println("\n******** BORRO PRIMER ELEMENTO DE LISTA 1********");
         lista.remove(0);
 
-        System.out.println("********** LISTA 1 TRAS BORRAR PRIMER ELEMENTO *******");
+        System.out.println("\n********** LISTA 1 TRAS BORRAR PRIMER ELEMENTO *******");
         System.out.println(lista);
-        System.out.println("********** LISTA 2 TRAS BORRAR PRIMER ELEMENTO en lista 1*******");
+        System.out.println("\n********** LISTA 2 TRAS BORRAR PRIMER ELEMENTO en lista 1*******");
         System.out.println(lista2);
-        System.out.println("********** LISTA 3 TRAS BORRAR PRIMER ELEMENTO en lista 1*******");
+        System.out.println("\n********** LISTA 3 TRAS BORRAR PRIMER ELEMENTO en lista 1*******");
         System.out.println(lista3);
+        System.out.println("\n********** LISTA PROFUNDA TRAS BORRAR PRIMER ELEMENTO en lista 1*******");
+        System.out.println(listaProfunda);
 
 
+        System.out.println("\n***************************************************************");
+        System.out.println("**************** OTRAS ORDENACIONES: COMPARATOR ***************");
+        System.out.println("***************************************************************");
         // ORDENACIÓN POR OTROS CAMPOS
         // USO DE COMPARATOR CON PROGRAMACIÓN FUNCIONAL (LAMBDA)
         Collections.sort(lista3, (s1,s2)-> Integer.compare(s1.getEdad(), s2.getEdad()));
 
-        System.out.println("******** LISTA 3 ORDENADA POR EDAD *****");
+        System.out.println("\n******** LISTA 3 ORDENADA POR EDAD *****");
         System.out.println(lista3);
 
         // USO DE COMPARATOR IMPLEMENTANDO COMPARATOR 
         Collections.sort(lista3,new ComparadorPorPuntos());
-        System.out.println("******** LISTA 3 ORDENADA POR PUNTOS *****");
+        System.out.println("\n******** LISTA 3 ORDENADA POR PUNTOS *****");
         System.out.println(lista3);
 
 
-
+        
 
 
 
