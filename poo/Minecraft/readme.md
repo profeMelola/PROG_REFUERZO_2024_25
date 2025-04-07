@@ -174,6 +174,9 @@ public class Espada extends Arma implements Usable {
 }
 
 ```
+## Diferencia entre clases abstractas e interfaces
+
+![image](https://github.com/user-attachments/assets/be505f02-d8cd-404a-bd12-054f0fb5fdb8)
 
 ___
 
@@ -187,6 +190,9 @@ Que cuando un alumno intente usar una herramienta o un arma sin durabilidad, el 
 - Cómo crear una excepción personalizada.
 - Cómo lanzar y capturar errores controlados con try-catch.
 - Buenas prácticas de control de flujo y diseño robusto.
+
+![image](https://github.com/user-attachments/assets/7da62424-df48-4a98-98b9-9fabb64169fb)
+
 
 ## Paso 1: crear la excepción personalizada
 
