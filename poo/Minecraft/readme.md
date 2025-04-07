@@ -61,3 +61,42 @@ Para crear una herramienta es necesario especificar estas dos características.
 
 ![image](https://github.com/user-attachments/assets/384f5f40-2463-4df4-b752-a8cc7d915a55)
 
+## Para realizar tus pruebas
+
+```
+    public static void main(String[] args) throws Exception {
+        GestorHerramientas gestor = new GestorHerramientas();
+
+        PicoDiamante pico1 = new PicoDiamante("Pico Pro", 250);
+        PicoHierro pico2 = new PicoHierro("Pico Normal", 150);
+        Hacha hacha1 = new Hacha("Hacha Rápida", 200, 1.5f);
+
+        gestor.addHerramienta(pico1);
+        gestor.addHerramienta(pico2);
+        gestor.addHerramienta(hacha1);
+
+        pico1.minar();
+        pico2.minar();
+
+        System.out.println("Total de herramientas creadas: " + Herramienta.getTotalHerramientas());
+
+        System.out.println("*TODAS LAS HERRAMIENTAS:");
+        System.out.println(gestor.pintaHerramientas());
+    }
+```
+
+**Debes obtener esto por consola:**
+
+```
+Soy un pico de diamante y mino cualquier bloque.
+Soy un pico de hierro y no puedo minar obsidiana.
+Total de herramientas creadas: 3
+*TODAS LAS HERRAMIENTAS:
+[Herramienta [nombre=Pico Pro, durabilidad=250]
+Pico [material=Diamante], Herramienta [nombre=Pico Normal, durabilidad=150]
+Pico [material=Hierro], Herramienta [nombre=Hacha Rápida, durabilidad=200]
+Hacha [eficiencia=1.5]]
+```
+
+
+
