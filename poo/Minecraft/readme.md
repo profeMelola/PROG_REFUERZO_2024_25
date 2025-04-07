@@ -173,4 +173,26 @@ public class Espada extends Arma implements Usable {
     }
 }
 
-``` 
+```
+
+___
+
+# Excepción propia
+
+## Objetivo
+
+Que cuando un alumno intente usar una herramienta o un arma sin durabilidad, el programa lance una **excepción personalizada** llamada **HerramientaRotaException.**
+
+**Aprenderemos:**
+- Cómo crear una excepción personalizada.
+- Cómo lanzar y capturar errores controlados con try-catch.
+- Buenas prácticas de control de flujo y diseño robusto.
+
+## Paso 1: crear la excepción personalizada
+
+## Paso 2: el método usar() propage la excepción
+
+## Paso 3: la herramienta lance la excepción
+
+## Paso 4: usar try-catch en el main
+
