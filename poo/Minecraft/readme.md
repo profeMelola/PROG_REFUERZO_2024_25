@@ -102,5 +102,74 @@ Herramienta [nombre=Hacha Rápida, durabilidad=200]
 Hacha [eficiencia=1.5]]
 ```
 
+# Interface
 
+Imagina que estás implementado todo el juego de Maincraf y tienes la siguiente jerarquía de objetos para armas:
 
+![image-2 (1)](https://github.com/user-attachments/assets/cff609a3-9448-45e4-bb70-129dac222323)
+
+En Minecraft, aunque herramientas y armas son de jerarquías distintas (por su uso y propiedades), comparten una funcionalidad importante: se desgastan con el uso. Es decir, tienen durabilidad, y esa durabilidad disminuye cuando se usan.
+
+## Interface Usable
+
+```
+public interface Usable {
+    void usar(); // reduce durabilidad, muestra mensaje, etc.
+}
+
+```
+ Tanto una espada como un pico pueden ser usados, gastarse y posiblemente romperse cuando su durabilidad llega a 0.
+
+ **Beneficios de la interfaz Usable:**
+    - Permite tratar armas y herramientas de forma uniforme.
+    - Puedes recorrer una lista de objetos Usable y llamarlos todos con .usar().
+    - Encapsula una funcionalidad transversal sin forzar herencia múltiple.
+
+### Ejemplo de implementació en Herramienta
+
+```
+ public abstract class Herramienta implements Usable {
+    protected String nombre;
+    protected int durabilidad;
+    private static int totalHerramientas = 0;
+
+    public Herramienta(String nombre, int durabilidad) {
+        this.nombre = nombre;
+        this.durabilidad = durabilidad;
+        totalHerramientas++;
+    }
+
+    @Override
+    public void usar() {
+        if (durabilidad > 0) {
+            durabilidad--;
+            System.out.println(nombre + " usada. Durabilidad restante: " + durabilidad);
+        } else {
+            System.out.println(nombre + " está rota y no puede usarse.");
+        }
+    }
+
+    // getters, setters, etc.
+}
+```
+
+### Ejemplo de implementación en Espada
+
+```
+public class Espada extends Arma implements Usable {
+    public Espada(String nombre, int damage, int durabilidad) {
+        super(nombre, damage, durabilidad);
+    }
+
+    @Override
+    public void usar() {
+        if (durabilidad > 0) {
+            durabilidad--;
+            System.out.println(nombre + " ataca. Durabilidad restante: " + durabilidad);
+        } else {
+            System.out.println(nombre + " está rota. No puede atacar.");
+        }
+    }
+}
+
+``` 
