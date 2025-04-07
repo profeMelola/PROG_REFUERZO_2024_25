@@ -101,6 +101,7 @@ Pico [material=Hierro],
 Herramienta [nombre=Hacha Rápida, durabilidad=200]
 Hacha [eficiencia=1.5]]
 ```
+___
 
 # Interface
 
