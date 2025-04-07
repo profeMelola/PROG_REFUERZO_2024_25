@@ -28,6 +28,6 @@ public class ProductoDAO {
         
     }
     public ArrayList<Producto> select(){
-        return (ArrayList<Producto>) productos.clone();
+        return new ArrayList<>(productos);
     }
 }
