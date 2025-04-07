@@ -125,7 +125,7 @@ public interface Usable {
     - Puedes recorrer una lista de objetos Usable y llamarlos todos con .usar().
     - Encapsula una funcionalidad transversal sin forzar herencia múltiple.
 
-### Ejemplo de implementació en Herramienta
+### Ejemplo de implementación en Herramienta
 
 ```
  public abstract class Herramienta implements Usable {
