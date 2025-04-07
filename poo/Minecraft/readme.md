@@ -91,10 +91,14 @@ Para crear una herramienta es necesario especificar estas dos características.
 Soy un pico de diamante y mino cualquier bloque.
 Soy un pico de hierro y no puedo minar obsidiana.
 Total de herramientas creadas: 3
+
 *TODAS LAS HERRAMIENTAS:
-[Herramienta [nombre=Pico Pro, durabilidad=250]
-Pico [material=Diamante], Herramienta [nombre=Pico Normal, durabilidad=150]
-Pico [material=Hierro], Herramienta [nombre=Hacha Rápida, durabilidad=200]
+[
+Herramienta [nombre=Pico Pro, durabilidad=250]
+Pico [material=Diamante], 
+Herramienta [nombre=Pico Normal, durabilidad=150]
+Pico [material=Hierro], 
+Herramienta [nombre=Hacha Rápida, durabilidad=200]
 Hacha [eficiencia=1.5]]
 ```
 
