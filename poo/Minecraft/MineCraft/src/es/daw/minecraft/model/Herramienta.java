@@ -34,7 +34,8 @@ public class Herramienta {
         return durabilidad;
     }
 
-    public static int getContador() {
+    // método estático para obtener el número total de objetos herramienta creados
+    public static int getTotalHerramientas() {
         return contador;
     }
 
