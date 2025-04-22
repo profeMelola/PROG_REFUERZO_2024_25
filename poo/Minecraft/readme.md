@@ -122,6 +122,7 @@ public interface Usable {
  Tanto una espada como un pico pueden ser usados, gastarse y posiblemente romperse cuando su durabilidad llega a 0.
 
  **Beneficios de la interfaz Usable:**
+ 
     - Permite tratar armas y herramientas de forma uniforme.
     - Puedes recorrer una lista de objetos Usable y llamarlos todos con .usar().
     - Encapsula una funcionalidad transversal sin forzar herencia múltiple.
