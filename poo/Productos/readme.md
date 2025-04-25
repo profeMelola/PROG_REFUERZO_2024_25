@@ -79,3 +79,7 @@ Con el uso de la interface **Comparable** implementa dicha funcionalidad y muest
 Necesitamos generar un informe de los productos ordenados por nombre de forma descendente.
 
 Con el uso de la interface **Comparator** implementa dicha funcionalidad y muestra los productos ordenados por nombre de forma descendente.
+
+## EXCEPCIONES
+
+Si la cantidad es menor o igual que cero, el método calcular debe lanzar una excepción **CantidadIncorrectaException**.
