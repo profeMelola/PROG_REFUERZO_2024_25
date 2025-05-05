@@ -2,6 +2,74 @@
 
 ![image](https://github.com/user-attachments/assets/983376e7-f182-4884-9e8c-548e7f652e5d)
 
+Crea un proyecto llamado **OrdenacionesApp**.
+
+## ORDENACIÓN DE ENTEROS
+
+Usa este método:
+
+```
+    /**
+     * Método para hacer pruebas listando enteros
+     */
+    private static void testListInteger(){
+        /*
+         * ARRAYLIST DE ENTEROS
+         */
+        System.out.println("**************************************************");
+        System.out.println("**EJEMPLOS DE ORDENACIÓN DE ARRAYLIST DE ENTEROS *");
+        System.out.println("**************************************************");
+
+        System.out.println("**************************************************");
+        System.out.println("** ARRAYLIST ENTEROS *");
+        System.out.println("**************************************************");
+        
+        // ArrayList<Integer> listInt = new ArrayList<>();
+        // listInt.add(3);
+        // listInt.add(4);
+        // listInt.add(2);
+        // listInt.add(6);
+        // listInt.add(5);
+        // listInt.add(1);
+        // listInt.add(7);
+
+        List<Integer> listInt = Arrays.asList(3,4,2,6,5,1,7);        
+        
+        System.out.println("* Lista de enteros no ordenada");
+        listInt.forEach(System.out::println);
+        
+        System.out.println("* Lista de enteros inversa:");
+        Collections.reverse(listInt);
+        listInt.forEach(System.out::println);
+        
+        System.out.println("* Lista de enteros ordenada por defecto (ascendente):");
+        //Forma 1
+        System.out.println("\tForma 1: con Collections.sort");
+        Collections.sort(listInt);
+        listInt.forEach(System.out::println);
+        
+        //Forma 2
+        System.out.println("\tForma 2 con sort del ArrayList");
+        listInt.sort(Comparator.naturalOrder());
+        listInt.forEach(System.out::println);
+        
+        System.out.println("* Lista de enteros ordenada descendente:");
+        //Forma 1
+        System.out.println("\tForma 1: con Collections.sort");
+        Collections.sort(listInt, Comparator.reverseOrder());
+        listInt.forEach(System.out::println);
+        
+        //Forma 2
+        System.out.println("\tForma 2 con sort del ArrayList");
+        listInt.sort(Comparator.reverseOrder());
+        listInt.forEach(System.out::println);
+        
+        
+    }
+
+```
+
+## ORDENACIÓN CLASE PERSONA
 
 Partimos de la clase **Persona**:
 
@@ -75,7 +143,7 @@ public class Persona implements Comparable<Persona>{
 }
 
 ```
-## Set de datos: objetos Persona (Clase DAO)
+### Set de datos: objetos Persona (Clase DAO)
 
 ```
 package es.daw.arraylistonfire.dao;
@@ -117,7 +185,7 @@ public class PersonaDAO {
 ```
 
 
-## Comparador por nombre (Clase implementando la inferface Comparator)
+### Comparador por nombre (Clase implementando la inferface Comparator)
 
 ```
 package es.daw.arraylistonfire.model;
