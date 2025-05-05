@@ -80,7 +80,7 @@ package es.daw.arraylistonfire.model;
  *
  * @author melola
  */
-public class Persona implements Comparable<Persona>{
+public class Persona{
     private String nombre;
     private int edad;
 
@@ -113,32 +113,6 @@ public class Persona implements Comparable<Persona>{
         return "Persona{" + "nombre=" + nombre + ", edad=" + edad + '}';
     }
 
-    @Override
-    public int compareTo(Persona other) {
-        // FORMA 1
-        /*if (other.getEdad() > edad)
-            return -1;
-        else if (edad > other.getEdad())
-            return 1;
-        else
-            return 0;*/
-        
-        // FORMA 2
-        //return edad - other.getEdad();
-
-        // ---------------------------------------
-        // FORMA RECOMENDADA
-        return Integer.compare(this.edad, other.edad);
-
-        // Considerar el nombre si las edades son iguales
-        // int result = Integer.compare(this.edad, other.edad);
-        // if (result == 0) {
-        //     result = this.nombre.compareTo(other.nombre);
-        // }
-        // return result;        
-        // ----------------------------------------
-        
-    }
    
 }
 
