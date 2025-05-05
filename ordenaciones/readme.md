@@ -120,8 +120,6 @@ public class Persona{
 ### Set de datos: objetos Persona (Clase DAO)
 
 ```
-package es.daw.arraylistonfire.dao;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -132,21 +130,18 @@ public class PersonaDAO {
     private final ArrayList<Persona> personas;
     
     public PersonaDAO(){
-        //Persona p1 = new Persona("Pepe",28);
         Persona p1 = new Persona("Pepe",20);
-        //Persona p2 = new Persona("Juan",32);
         Persona p2 = new Persona("Juan",20);
         Persona p3 = new Persona("Paco",40);
         Persona p4 = new Persona("Lola",21);
         Persona p6 = new Persona("Lola",20);
-        Persona p7 = new Persona("Lola",22);
+        //Persona p7 = new Persona("Lola",22);
+        Persona p7 = new Persona("Lola",21);
         Persona p5 = new Persona("Susi",24);
         Persona p8 = new Persona("Susi",25);
-        Persona p9 = new Persona("Susi",26);
+        //Persona p9 = new Persona("Susi",26);
+        Persona p9 = new Persona("Susi",25);
         
-        //listPersonas.add(p1);
-        //listPersonas.add(p2);
-        // .....
 
         
         personas = new ArrayList<>(Arrays.asList(p1,p2,p3,p4,p5, p6, p7,p8,p9));
@@ -157,12 +152,14 @@ public class PersonaDAO {
     }    
 }
 ```
+### Criterio natural de ordenación: por edad
+
+Implementa la interface **Comparable**.
 
 
-### Comparador por nombre (Clase implementando la inferface Comparator)
+### Otras ordenaciones. Comparador por nombre (Clase implementando la inferface Comparator)
 
 ```
-package es.daw.arraylistonfire.model;
 
 import java.util.Comparator;
 
@@ -189,3 +186,8 @@ private static void borraPersonasConEdadPar(){
 ...
 }
 ```
+
+## Eliminar duplicados (Uso de Set + equals + hashcode)
+
+Consideraremos que dos personas son iguales si tienen el mismo nombre y la misma edad.
+
