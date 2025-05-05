@@ -205,3 +205,13 @@ public class ComparatorByName implements Comparator<Persona>{
     
 }
 ```
+
+## Borrar personas con edad par: Iterator
+
+Implementa este método:
+
+```
+private static void borraPersonasConEdadPar(){
+...
+}
+```
