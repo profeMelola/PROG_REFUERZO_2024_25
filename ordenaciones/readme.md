@@ -1,5 +1,8 @@
 # Ordenaciones
 
+![image](https://github.com/user-attachments/assets/983376e7-f182-4884-9e8c-548e7f652e5d)
+
+
 Partimos de la clase **Persona**:
 
 ```
