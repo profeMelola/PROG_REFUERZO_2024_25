@@ -11,7 +11,7 @@ ___
 
 Los flujos de bytes se usan con imagenes, videos, serialización de objetos en los que solo importa manejar el flujo de bytes y no presentarlo como texto.
 
-Con los flujos byte a byte podemos leer y escribir un byte a la vez en archivos.
+**Con los flujos byte a byte podemos leer y escribir un byte a la vez en archivos.**
 
 *Byte a byte*
 
@@ -19,7 +19,7 @@ Con los flujos byte a byte podemos leer y escribir un byte a la vez en archivos.
 
 - FileOutputStream
 
-Con los flujos de bloque podemos leer y escribir por bloques de bytes en un archivo.
+**Con los flujos de bloque podemos leer y escribir por bloques de bytes en un archivo.**
 
 *Bloque de bytes*
 
@@ -46,7 +46,7 @@ Con los flujos de bloque podemos leer y escribir por bloques de bytes en un arch
 
     ```
 
-*Serializacion*
+**Serializacion**
 
 - ObjectInputStream
 
@@ -94,13 +94,13 @@ ___
 
 Con los flujos de caracteres individuales podemos leer y escribir un caracter a la vez en archivos.
 
-*Caracter a caracter*
+**Caracter a caracter**
 - FileReader
 - FileWriter
 
 Con los flujos de bloque de caracteres podemos escribir cadenas de caracteres tan amplias como necesitemos de forma directa en un archivo.
 
-*Bloque de caracteres (Lineas)*
+**Bloque de caracteres (Lineas)**
 - BufferedReader
 - BufferedWriter
 
@@ -123,9 +123,9 @@ ___
 
 **¿CUÁNDO USAR FILEWRITER O BUFFEREDWRITER?**
 
-FileWriter es una clase que se utiliza para escribir caracteres en un archivo. Cuando se utiliza FileWriter, los datos se escriben directamente en el archivo, lo que significa que cada llamada a FileWriter abre y cierra el archivo. Esto puede ser ineficiente si necesita escribir grandes cantidades de datos en el archivo.
+**FileWriter** es una clase que se utiliza para escribir caracteres en un archivo. Cuando se utiliza FileWriter, los datos se escriben directamente en el archivo, lo que significa que cada llamada a FileWriter abre y cierra el archivo. Esto puede ser ineficiente si necesita escribir grandes cantidades de datos en el archivo.
 
-Por otro lado, BufferedWriter es una clase que se utiliza para escribir grandes cantidades de datos en un archivo. Cuando se utiliza BufferedWriter, los datos se almacenan en un búfer antes de ser escritos en el archivo. Esto significa que se pueden escribir grandes cantidades de datos en el búfer y luego escribirlos en el archivo en una sola llamada, lo que puede mejorar significativamente el rendimiento de la aplicación.
+Por otro lado, **BufferedWriter** es una clase que se utiliza para escribir grandes cantidades de datos en un archivo. Cuando se utiliza BufferedWriter, los datos se almacenan en un búfer antes de ser escritos en el archivo. Esto significa que se pueden escribir grandes cantidades de datos en el búfer y luego escribirlos en el archivo en una sola llamada, lo que puede mejorar significativamente el rendimiento de la aplicación.
 
 Además, BufferedWriter también ofrece algunas características adicionales, como la capacidad de escribir una cadena de texto completa de una sola vez con el método write() y la posibilidad de escribir una nueva línea con el método newLine(), lo que puede hacer que la escritura en archivos sea más fácil y eficiente.
 
@@ -134,7 +134,7 @@ En resumen:
 - **BufferedWriter es mejor opción que FileWriter:** si se necesita escribir grandes cantidades de datos en un archivo, o si desea mejorar el rendimiento de su aplicación al escribir datos en archivos.
 - **FileWriter es mejor opción que BufferedWriter:** si solo necesita escribir una pequeña cantidad de datos en el archivo, FileWriter puede ser suficiente.
 
-## Diferencia java.io vs java.nio
+## Diferencia java.io vs java.nio (diferentes formas de hacer lo mismo)
 
 ![nio](https://github.com/user-attachments/assets/a4db66c3-49f9-4d84-866c-c7ac3246183f)
 
