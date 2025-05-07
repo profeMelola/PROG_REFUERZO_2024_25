@@ -22,7 +22,7 @@ En esta práctica trabajaremos con una aplicación de consola en Java que simula
 - `Usuario`: clase que representa un usuario con `username` y `password`.
 - `UsuarioDAO`: contiene una lista predefinida de usuarios y un método de autenticación.
 
-  ```
+```
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -43,7 +43,7 @@ public class UsuarioDAO {
                        .anyMatch(u -> u.getUsername().equals(username) && u.getPassword().equals(password));
     }
 }  
-  ```
+```
 - `LoginLogger`: escribe los intentos de login en un fichero CSV llamado `login_logs.csv`.
 - `Main`: clase principal que gestiona la interacción por consola.
 
