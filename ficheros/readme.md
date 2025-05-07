@@ -136,7 +136,8 @@ En resumen:
 
 ## Diferencia java.io vs java.nio
 
-![image](https://github.com/profeMelola/Programacion-07-2023-24/assets/91023374/f748dd92-7530-4aa5-8a16-e407f744548d)
+![nio](https://github.com/user-attachments/assets/a4db66c3-49f9-4d84-866c-c7ac3246183f)
+
 
 
 ## **Rutas (Paths)**
