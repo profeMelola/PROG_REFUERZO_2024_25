@@ -38,10 +38,6 @@ public class UsuarioDAO {
         ));
     }
 
-    public boolean autenticar(String username, String password) {
-        return usuarios.stream()
-                       .anyMatch(u -> u.getUsername().equals(username) && u.getPassword().equals(password));
-    }
 }  
 ```
 - `LoginLogger`: escribe los intentos de login en un fichero CSV llamado `login_logs.csv`.
