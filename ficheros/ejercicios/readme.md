@@ -65,7 +65,13 @@ juan,FAIL,2025-05-07 10:32:42
 
 ## Pendiente para la próxima clase. Investiga por adelantado ;-)
 
-Crear el fichero login_logs.csv de diferentes formas, usando siempre **try con recursos**:
+En clase hemos visto como crear el fichero y escribir líneas (registros) con la clase **Files**:
+
+```
+Files.write(Paths.get(FILE_PATH), linea.getBytes(), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+```
+
+Prueba a crear el fichero login_logs.csv de diferentes formas, usando siempre **try con recursos**:
 
 - Con FileWriter. 
 - Con BufferedWriter: puedes obtener un BufferedWriter de dos formas:
@@ -78,6 +84,12 @@ Crear el fichero login_logs.csv de diferentes formas, usando siempre **try con r
           BufferedWriter bw = Files.newBufferedWriter(Paths.get(FILE_PATH), Charset.forName("UTF-8"),StandardOpenOption.CREATE, StandardOpenOption.APPEND)
   
       ```
+
+
+### ¿Qué beneficio tiene crear y escribir en el fichero de texto con FileWriter, BufferedWriter, Files.write?
+
+Revisa la teoría https://github.com/profeMelola/PROG_REFUERZO_2024_25/blob/main/ficheros/readme.md
+
 ___
 ### Ejemplos de try con y sin recursos
 
