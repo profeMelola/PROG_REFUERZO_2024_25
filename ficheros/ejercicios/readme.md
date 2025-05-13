@@ -66,6 +66,9 @@ juan,FAIL,2025-05-07 10:32:42
 ___
 ## PENDIENTE PARA LA PRÓXIMA CLASE. Investiga por adelantado ;-)
 
+![image](https://github.com/user-attachments/assets/61231598-d7b8-45f8-836b-f7774272b733)
+
+
 En clase hemos visto como crear el fichero y escribir líneas (registros) con la clase **Files**:
 
 ```
