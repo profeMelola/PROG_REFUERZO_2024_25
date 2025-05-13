@@ -63,7 +63,8 @@ juan,FAIL,2025-05-07 10:32:42
 
 ```
 
-## Pendiente para la próxima clase. Investiga por adelantado ;-)
+___
+## PENDIENTE PARA LA PRÓXIMA CLASE. Investiga por adelantado ;-)
 
 En clase hemos visto como crear el fichero y escribir líneas (registros) con la clase **Files**:
 
@@ -126,4 +127,32 @@ try (BufferedWriter bw = new BufferedWriter(new FileWriter("ruta/del/archivo.txt
 }
 
 ```
-  
+___
+### Leer archivo CSV y generar informes
+
+Partiendo de este método, procesa cada línea del archivo y pinta por consola cuántos intentos han sido OK y cuántos FAIL.
+
+```
+public static void leerCSV() throws IOException {
+        System.out.println("*********** CONTENIDO DEL LOG ***********");
+
+        List<String> lineas = Files.readAllLines(Paths.get(FILE_PATH));
+        lineas.forEach(System.out::println);
+
+        // for (String linea : lineas) {
+        //     System.out.println(linea);
+        // }
+        
+        // OTRA FORMA: Con Files.newBufferedReader
+        /*try ( BufferedReader br = Files.newBufferedReader(FILE_PATH)) {
+            String linea = null;
+            while ((linea = br.readLine()) != null) {
+                System.out.println(linea);
+            }
+        }*/
+
+
+        System.out.println("********************************************************");
+
+    }   
+```
