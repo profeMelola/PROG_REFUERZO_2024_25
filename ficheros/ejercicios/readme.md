@@ -118,6 +118,8 @@ try {
 
 **Con recursos:**
 
+Aquí no necesitas finally porque el recurso se cierra automáticamente al final del bloque try.
+
 ```
 try (BufferedWriter bw = new BufferedWriter(new FileWriter("ruta/del/archivo.txt", true))) {
     bw.write("Escribiendo con try con recursos");
