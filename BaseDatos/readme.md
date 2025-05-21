@@ -74,6 +74,9 @@ INSERT INTO materiales(titulo, tipo, autor, numero, duracion) VALUES
 
 ![image](https://github.com/user-attachments/assets/b030af75-1c03-4b46-8f9a-e8da85e24b6f)
 
+- Ya tenemos montada la base de datos:
+
+![image](https://github.com/user-attachments/assets/a8eab1f9-71a3-496e-a82f-5d738829948b)
 
 # Crear la clase de conexión
 
