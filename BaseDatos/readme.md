@@ -85,7 +85,9 @@ ___
 
 # Montar el modelo de clases en mi proyecto
 
-Material, Libro, Revista y DVD.
+- Material, Libro, Revista y DVD.
+- Usuario: representa a una persona que puede tomar materiales en préstamo.
+
 
 **Material:**
 
