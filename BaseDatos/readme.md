@@ -91,7 +91,7 @@ ___
 
 **Material:**
 
-- Es una clase abstracta: no se puede instanciar directamente.
+- Clase padre.
 - Contiene atributos comunes a todos los materiales: id y titulo.
 - Será heredada por Libro, Revista y DVD.
 
