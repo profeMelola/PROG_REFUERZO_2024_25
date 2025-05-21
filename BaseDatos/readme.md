@@ -39,9 +39,7 @@ ___
 
 ![image](https://github.com/user-attachments/assets/39597c81-dcff-4bf5-a589-42e2fc79b6a2)
 
-
-
-Vamos a trabajar con **biblioteca.sql**
+- Copia este contenido:
 
 ```
 -- Tabla de usuarios
@@ -71,6 +69,11 @@ INSERT INTO materiales(titulo, tipo, autor, numero, duracion) VALUES
 ('Matrix', 'DVD', NULL, NULL, 136);
 
 ```
+
+- Ejecuta la query:
+
+![image](https://github.com/user-attachments/assets/b030af75-1c03-4b46-8f9a-e8da85e24b6f)
+
 
 # Crear la clase de conexión
 
