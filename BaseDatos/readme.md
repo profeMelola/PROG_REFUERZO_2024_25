@@ -142,3 +142,19 @@ INSERT INTO prestamos(usuario_id, material_id, fecha) VALUES
 (1, 3, '2024-05-05');
 ```
 
+
+## Mostrar materiales más usados por usuario
+
+```
+        String sql = """
+            SELECT 
+                u.nombre AS usuario,
+                m.titulo AS material,
+                COUNT(*) AS veces_usado
+            FROM prestamos p
+            JOIN usuarios u ON p.usuario_id = u.id
+            JOIN materiales m ON p.material_id = m.id
+            GROUP BY u.id, m.id
+            ORDER BY u.nombre, veces_usado DESC;
+        """;
+```
