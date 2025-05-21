@@ -120,6 +120,29 @@ public class DBConnection {
 }
 ```
 
+# Montar operaciones CRUD
+
+![image](https://github.com/user-attachments/assets/4ee4d03a-ceac-4675-8903-a532136acb7c)
+
+
+# Usar la interface genérica para patrón DAO
+
+```
+public interface Repository<T> {
+
+    T selectById(int id) throws SQLException;
+
+    List<T> selectAll() throws SQLException;
+
+    void insert(T t) throws SQLException;
+
+    void update(T t) throws SQLException;
+
+    void delete(T t) throws SQLException;
+
+    void delete(int id) throws SQLException;
+}
+```
 ___ 
 
 # AVANZADO: Gestión de préstamos en la biblioteca
