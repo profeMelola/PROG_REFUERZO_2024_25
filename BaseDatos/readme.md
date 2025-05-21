@@ -26,7 +26,22 @@ ___
 
 # Crear la base de datos
 
-Vamos a trabajar con biblioteca.sql.
+- Vamos a crear una carpeta llamada data y dentro un archivo vacío llamado biblioteca.db.
+- Después ejecutamos "Open Database"
+
+![image](https://github.com/user-attachments/assets/3a39fbeb-5459-43f3-85a4-fbbbcc53be5c)
+
+- Aparecerá la pestaña para explorar la base de datos:
+
+![image](https://github.com/user-attachments/assets/e1250a11-8311-4a62-91e8-05d658a7e69c)
+
+- Ejecutaremos la query:
+
+![image](https://github.com/user-attachments/assets/39597c81-dcff-4bf5-a589-42e2fc79b6a2)
+
+
+
+Vamos a trabajar con **biblioteca.sql**
 
 ```
 -- Tabla de usuarios
