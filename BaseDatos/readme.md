@@ -78,6 +78,34 @@ INSERT INTO materiales(titulo, tipo, autor, numero, duracion) VALUES
 
 ![image](https://github.com/user-attachments/assets/a8eab1f9-71a3-496e-a82f-5d738829948b)
 
+
+![image](https://github.com/user-attachments/assets/4b134154-7241-43b0-980e-ffdf32135029)
+
+___
+
+# Montar el modelo de clases en mi proyecto
+
+Material, Libro, Revista y DVD.
+
+**Material:**
+
+- Es una clase abstracta: no se puede instanciar directamente.
+- Contiene atributos comunes a todos los materiales: id y titulo.
+- Será heredada por Libro, Revista y DVD.
+
+**Libro:**
+
+Es un material con el campo adicional autor.
+
+**Revista:**
+
+Es un material con el campo adicional numero.
+
+**DVD:**
+
+Es un material con el campo adicional duración.
+
+
 # Crear la clase de conexión
 
 ```
