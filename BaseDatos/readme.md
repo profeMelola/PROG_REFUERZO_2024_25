@@ -17,6 +17,11 @@
 
 ![image](https://github.com/user-attachments/assets/7fd36741-bfaf-4cd7-9897-9e948d58cbc7)
 
+
+## Extesión 
+
+![image](https://github.com/user-attachments/assets/2b0e8e39-025f-48ad-8721-50e3d5a379ae)
+
 ___
 
 # Crear la base de datos
@@ -66,7 +71,7 @@ public class DBConnection {
 
 ___ 
 
-# Gestión de préstamos en la biblioteca
+# AVANZADO: Gestión de préstamos en la biblioteca
 
 ```
 -- Tabla de préstamos
