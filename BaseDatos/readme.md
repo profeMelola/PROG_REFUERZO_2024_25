@@ -170,14 +170,15 @@ INSERT INTO prestamos(usuario_id, material_id, fecha) VALUES
 
 ```
         String sql = """
-            SELECT 
-                u.nombre AS usuario,
-                m.titulo AS material,
-                COUNT(*) AS veces_usado
-            FROM prestamos p
-            JOIN usuarios u ON p.usuario_id = u.id
-            JOIN materiales m ON p.material_id = m.id
-            GROUP BY u.id, m.id
-            ORDER BY u.nombre, veces_usado DESC;
+SELECT 
+    u.nombre AS usuario,
+    m.titulo AS material,
+    m.tipo,
+    COUNT(p.id) AS veces_prestado
+FROM prestamos p
+JOIN usuarios u ON p.usuario_id = u.id
+JOIN materiales m ON p.material_id = m.id
+GROUP BY u.id, m.id
+ORDER BY u.nombre, veces_prestado DESC;
         """;
 ```
