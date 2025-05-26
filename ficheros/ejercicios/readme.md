@@ -161,3 +161,37 @@ public static void leerCSV() throws IOException {
 
     }   
 ```
+
+**Solución:**
+
+```
+    public static void leerCSV() throws IOException {
+        System.out.println("*********** CONTENIDO DEL LOG ***********");
+
+        List<String> lineas = Files.readAllLines(Paths.get(FILE_PATH));
+        //lineas.forEach(System.out::println);
+
+        int okCount = 0;
+        int failCount = 0;        
+
+
+        for (String linea : lineas) {
+            System.out.println(linea);
+            String[] partes = linea.split(",");
+            if (partes.length >= 2) {
+                String estado = partes[1].trim();
+                if (estado.equalsIgnoreCase("OK")) {
+                    okCount++;
+                } else if (estado.equalsIgnoreCase("FAIL")) {
+                    failCount++;
+                }
+            }
+        }        
+
+        System.out.println("********************************************************");
+        System.out.println("Total OK: " + okCount);
+        System.out.println("Total FAIL: " + failCount);
+        System.out.println("********************************************************");
+
+    }    
+```
